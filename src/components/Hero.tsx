@@ -28,15 +28,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenInquiry }) => {
         </div>
 
         {/* Display H1 - Strict 2 lines max on desktop with wide container */}
-        <h1 className="font-display text-2.5xl sm:text-5xl md:text-6xl lg:text-[4rem] font-black text-stone-900 tracking-tight leading-[1.14] sm:leading-[1.08] max-w-4xl mx-auto mb-4 sm:mb-6 px-1">
+        <h1 className="font-display text-2.5xl sm:text-5xl md:text-6xl lg:text-[4rem] font-black text-stone-900 tracking-tight leading-[1.14] sm:leading-[1.08] max-w-4xl mx-auto mb-8 sm:mb-10 px-1">
           Worry No More. Celebrate Like a <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-amber-700 to-amber-800">Guest on Your Own Event.</span>
         </h1>
-
-        {/* Subtext value prop */}
-        <p className="text-sm sm:text-base md:text-lg text-stone-600 font-normal leading-relaxed max-w-2xl mx-auto mb-7 sm:mb-9 px-2">
-          Founded and orchestrated by <strong>Pamela Gueta-Tanael</strong>. We handle master timelines, 
-          supplier sync, and on-site logistics so you can savor every second of your milestone.
-        </p>
 
         {/* High-Contrast Action CTAs */}
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 w-full sm:w-auto max-w-md sm:max-w-none mx-auto">

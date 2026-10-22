@@ -16,17 +16,13 @@ export const Testimonials: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-10">
+        <div className="max-w-3xl mb-8 sm:mb-10">
           <span className="text-amber-800 text-xs font-bold uppercase tracking-wider block mb-2 font-mono">
             Verified Reviews
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-stone-900 tracking-tight leading-tight">
             Words From Our Sunny Families
           </h2>
-          <p className="mt-3 text-sm sm:text-base md:text-lg text-stone-600 leading-relaxed font-sans">
-            Hear directly from mothers, overseas clients, and co-suppliers who trusted Pamela Gueta-Tanael 
-            and her team to guard their milestones and give them peace of mind.
-          </p>
         </div>
 
         {/* Minimalist Editorial Stat Bar */}

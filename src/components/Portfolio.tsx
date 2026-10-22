@@ -83,17 +83,13 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onOpenEventModal, onOpenIn
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}
-        <div className="max-w-3xl mb-10 sm:mb-12">
+        <div className="max-w-3xl mb-8 sm:mb-10">
           <span className="text-amber-800 text-xs font-bold uppercase tracking-wider block mb-2 font-mono">
             Celebration Portfolio
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-serif text-stone-900 tracking-tight leading-tight">
             All Celebrations Coordinated by Sunny Events
           </h2>
-          <p className="mt-3 text-sm sm:text-base md:text-lg text-stone-600 leading-relaxed font-sans">
-            Transparency is at the heart of what we do. Below is the complete archive of <strong>{EVENTS_DATA.length} documented celebrations</strong>, 
-            featuring authentic Facebook album cover photos, photo counts, dates, venues, and full supplier roll-calls.
-          </p>
         </div>
 
         {/* Search & Filter Controls */}
