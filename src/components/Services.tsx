@@ -275,33 +275,6 @@ export const Services: React.FC<ServicesProps> = ({ onOpenInquiry }) => {
           })}
         </div>
 
-        {/* Compact Package Banner */}
-        <div className="mt-8 sm:mt-10 rounded-2xl p-1 bg-stone-900/[0.03] ring-1 ring-stone-900/5">
-          <div className="rounded-xl bg-white p-4 sm:p-5 border border-stone-200/80 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-2xs">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-amber-50 text-amber-700 flex items-center justify-center shrink-0 ring-1 ring-amber-300">
-                <ShieldCheck className="w-5 h-5 text-amber-600" />
-              </div>
-              <div>
-                <h3 className="text-xs sm:text-sm font-serif font-bold text-stone-900">
-                  Custom Event Bundles Available
-                </h3>
-                <p className="text-[11px] sm:text-xs text-stone-500 font-sans leading-tight mt-0.5">
-                  Combine Coordination with D&D Delights and Children's Seating for an all-in-one celebration package.
-                </p>
-              </div>
-            </div>
-
-            <button
-              type="button"
-              onClick={() => onOpenInquiry('I want a custom package combining Event Coordination, D&D Delights, and Children Seat Rent.')}
-              className="w-full sm:w-auto whitespace-nowrap px-4 py-2 rounded-xl bg-amber-600 hover:bg-amber-500 text-white text-xs font-bold transition shadow-2xs shrink-0 text-center"
-            >
-              Get Custom Package
-            </button>
-          </div>
-        </div>
-
       </div>
     </section>
   );
