@@ -250,7 +250,7 @@ export const InquiryDrawer: React.FC<InquiryDrawerProps> = ({
               </div>
             </div>
 
-            {/* Channel 3: Phone / Viber */}
+            {/* Channel 3: Direct Phone Call */}
             <div className="rounded-2xl bg-white p-5 sm:p-6 border border-stone-200/90 shadow-2xs hover:border-emerald-400 transition-all duration-200 group">
               <div className="flex items-start justify-between gap-4 mb-3">
                 <div className="flex items-center gap-3">
@@ -259,7 +259,7 @@ export const InquiryDrawer: React.FC<InquiryDrawerProps> = ({
                   </div>
                   <div>
                     <h3 className="font-serif text-base sm:text-lg font-bold text-stone-900 leading-tight">
-                      Call / Viber / SMS
+                      Direct Phone Call / SMS
                     </h3>
                     <span className="text-[11px] font-semibold text-emerald-800 block mt-0.5 font-mono">
                       0923 659 9971
@@ -281,21 +281,12 @@ export const InquiryDrawer: React.FC<InquiryDrawerProps> = ({
                 Direct phone consultation with Pamela for timeline sync, venue coordination questions, and urgent event inquiries.
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-                <a
-                  href="tel:+639236599971"
-                  className="py-2.5 px-3 rounded-xl bg-emerald-700 hover:bg-emerald-600 text-white font-bold text-xs transition flex items-center justify-center gap-1.5 shadow-2xs text-center"
-                >
-                  <span>Call: 0923 659 9971</span>
-                </a>
-
-                <a
-                  href="viber://chat?number=%2B639236599971"
-                  className="py-2.5 px-3 rounded-xl bg-[#7360F2] hover:bg-[#6250e0] text-white font-bold text-xs transition flex items-center justify-center gap-1.5 shadow-2xs text-center"
-                >
-                  <span>Message on Viber</span>
-                </a>
-              </div>
+              <a
+                href="tel:+639236599971"
+                className="w-full py-3 px-4 rounded-xl bg-emerald-700 hover:bg-emerald-600 text-white font-bold text-xs transition flex items-center justify-center gap-1.5 shadow-2xs text-center"
+              >
+                <span>Call: 0923 659 9971</span>
+              </a>
             </div>
 
             {/* Channel 4: Official Facebook Page & Albums */}

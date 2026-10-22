@@ -72,7 +72,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
             <a
               href="tel:+639236599971"
               className="flex items-center gap-1.5 text-xs font-semibold text-stone-700 hover:text-amber-700 px-3 py-1.5 rounded-full hover:bg-stone-100 transition-colors whitespace-nowrap"
-              title="Call or Viber Pamela"
+              title="Call Pamela"
             >
               <Phone className="w-3.5 h-3.5 text-amber-600" />
               <span>0923 659 9971</span>
@@ -157,7 +157,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInquiry }) => {
             >
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-600" />
-                <span>Call / Viber: 0923 659 9971</span>
+                <span>Call: 0923 659 9971</span>
               </div>
               <span className="text-[10px] text-stone-400 uppercase font-bold">Dial</span>
             </a>
