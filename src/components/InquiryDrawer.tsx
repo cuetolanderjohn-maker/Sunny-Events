@@ -8,9 +8,7 @@ import {
   Copy, 
   Check, 
   ArrowUpRight,
-  ShieldCheck,
-  Clock,
-  MapPin
+  ShieldCheck
 } from 'lucide-react';
 
 const FacebookIcon: React.FC<{ className?: string }> = ({ className = 'w-4 h-4' }) => (
@@ -124,22 +122,6 @@ export const InquiryDrawer: React.FC<InquiryDrawerProps> = ({
               >
                 <X className="w-5 h-5" />
               </button>
-            </div>
-
-            {/* Direct Status Bar */}
-            <div className="mt-4 pt-4 border-t border-stone-800/80 flex flex-wrap items-center gap-4 text-xs text-stone-300 font-sans">
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
-                <span className="font-medium text-emerald-300">Accepting 2026-2027 Bookings</span>
-              </div>
-              <div className="flex items-center gap-1.5 text-stone-400">
-                <Clock className="w-3.5 h-3.5 text-stone-400 shrink-0" />
-                <span>Mon-Sat Consultation</span>
-              </div>
-              <div className="flex items-center gap-1.5 text-stone-400">
-                <MapPin className="w-3.5 h-3.5 text-stone-400 shrink-0" />
-                <span>Metro Manila & Out-of-Town</span>
-              </div>
             </div>
           </div>
 
