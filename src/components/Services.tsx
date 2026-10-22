@@ -92,16 +92,13 @@ export const Services: React.FC<ServicesProps> = ({ onOpenInquiry }) => {
       <div className="max-w-6xl mx-auto">
         
         {/* Section Header - Clean Editorial */}
-        <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-12">
+        <div className="text-center max-w-2xl mx-auto mb-6 sm:mb-8">
           <span className="text-amber-800 text-xs font-bold uppercase tracking-wider block mb-2 font-mono">
             Core Offerings
           </span>
-          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-black text-stone-900 tracking-tight leading-tight mb-2 sm:mb-3">
+          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl font-black text-stone-900 tracking-tight leading-tight">
             Services Offered by Sunny Events
           </h2>
-          <p className="text-stone-600 text-xs sm:text-sm md:text-base leading-relaxed">
-            Professional event coordination, custom D&D Delights cookie kits, and children’s seating rentals.
-          </p>
         </div>
 
         {/* ============================================================== */}

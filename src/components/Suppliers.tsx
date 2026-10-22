@@ -78,16 +78,13 @@ export const Suppliers: React.FC<SuppliersProps> = ({ onOpenInquiry }) => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Compact Section Header */}
-        <div className="max-w-2xl mb-8">
+        <div className="max-w-2xl mb-6 sm:mb-8">
           <span className="text-amber-800 text-xs font-bold uppercase tracking-wider block mb-1.5 font-mono">
             Supplier Network
           </span>
           <h2 className="text-2xl sm:text-3xl font-serif text-stone-900 tracking-tight leading-tight">
             Coordinated Supplier Roster
           </h2>
-          <p className="mt-2 text-xs sm:text-sm text-stone-600 leading-relaxed font-sans">
-            Direct backstage sync with Metro Manila’s trusted caterers, stylists, photographers, magicians, and cake designers.
-          </p>
         </div>
 
         {/* Compact Search & Category Filter Controls */}
